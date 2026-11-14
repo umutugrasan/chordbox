@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+*.spec
+
+# PlatformIO
+firmware/.pio/
+firmware/.vscode/
+
+# Vosk modelleri (büyük dosyalar)
+app/models/
+
+# OpenSCAD çıktıları
+case/*.stl
+
+# Editör / işletim sistemi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
